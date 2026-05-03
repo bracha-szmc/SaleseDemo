@@ -1,0 +1,11 @@
+﻿$PBExportHeader$msg.srf
+global type msg from function_object
+end type
+
+forward prototypes
+global subroutine msg (any aa_message)
+end prototypes
+
+global subroutine msg (any aa_message);MessageBox('', String(aa_message))
+end subroutine
+
